@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>{{ .Base.Hex }}</string>
+				<key>caret</key>
+				<string>{{ .Rosewater.Hex }}</string>
+				<key>foreground</key>
+				<string>{{ .Text.Hex }}</string>
+				<key>lineHighlight</key>
+				<string>{{ .Mantle.Hex }}</string>
+				<key>selection</key>
+				<string>{{ .Overlay2.Hex }}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ .Overlay2.Hex }}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ .Green.Hex }}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ .Mauve.Hex }}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>User-defined constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ .Peach.Hex }}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ .Peach.Hex }}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{ .Text.Hex }}</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
